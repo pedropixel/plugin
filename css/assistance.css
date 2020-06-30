@@ -1,0 +1,75 @@
+.assistance-form {
+    background: #ffffff;
+    padding: 20px;
+    -webkit-box-shadow: 1px 2px 4px 0 rgba(21,99,157,0.16);
+    box-shadow: 1px 2px 4px 0 rgba(21,99,157,0.16);
+}
+input.button-black {
+    color: #d7d800;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background: #000000;
+    border-radius: 4px;
+    padding: 13px 30px 12px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    -webkit-transition: 0.7s all ease;
+    -moz-transition: 0.7s all ease;
+    transition: 0.7s all ease;
+    cursor: pointer;
+    border:none;
+}
+input.button-black:link, input.button-black:visited {
+	color: #d7d800;
+}
+input.button-black:hover {
+	background: #3a3a3a;
+	color: #d7d800;
+	text-decoration: none;
+}
+input#cedula {
+    width: calc(50% - 2px);
+    display: inline-block;
+    margin-right: 2px;
+}
+input#fecha {
+    width: calc(50% - 2px);
+    display: inline-block;
+    margin-left: 2px;
+}
+form#request {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.form-check {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.assistance-form p {
+    margin: 0;
+    margin: 0 auto;
+}
+
+.form-check-label {
+    background: #d7d800;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px 5px auto 0;
+    color: #232323;
+    font-weight: 600;
+}
+.selected {
+    background: #0072ff;
+    color: #ffffff;
+}
+.selected::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c";
+  }
+.form-check-input{
+    display: none;
+}
